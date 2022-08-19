@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Oleo Script', cursive;
+}
+body {
+    background-image: url("./Fondo-html.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+     /*HEADER*/
+
+header {
+    height: 15%;
+}
+
+      /*MAIN*/
+
+main {
+
+}
