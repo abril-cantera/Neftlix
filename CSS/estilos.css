@@ -5,23 +5,22 @@
 }
 html {
     font-size: 62.5%;
-    /* font-family: 'DynaPuff', cursive; */
     font-family: 'Oleo Script', cursive;
 }
 body {
-    background-image: url("./Fondo-html.jpg");
+    height: 165vh;
+    background-image: url("../Imagenes/Fondo-html.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    height: 100vh;
 }
 
 
      /*HEADER*/
 
 header {
-    height: 12%;
-    border-right: 1366px solid rgba(0, 0, 0, 0.438);
+    height: 8.2%;
+    background-image: linear-gradient(180deg, #000000, #00000000);
 }
 
 .conteiner-logo {
@@ -53,7 +52,7 @@ main {
     height: 650px;
     width: 455px;
     border-radius: 5px;
-    padding: 7rem;
+    padding: 6rem 7rem;
 }
 
 .h1-main {
@@ -63,7 +62,7 @@ main {
     margin-bottom: 2.7rem;
 }
 
-.contenedor-main input {
+.contenedor-main .input1 {
     height: 52px;
     width: 315px;
     border: none;
@@ -89,3 +88,12 @@ main {
     cursor: pointer;
 }
 
+/* .input-conteiner {
+    display: flex;
+    padding: 1rem;
+}
+.input-conteiner h5 {
+    font-size: 1.2rem;
+    color: #b3b3b3;
+    padding-left: 1rem;
+} */
