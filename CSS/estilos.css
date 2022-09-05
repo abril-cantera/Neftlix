@@ -1,99 +1,193 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
-    font-family: 'Oleo Script', cursive;
+  font-size: 62.5%;
+  font-family: "Oleo Script", cursive;
 }
 body {
-    height: 165vh;
-    background-image: url("../Imagenes/Fondo-html.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 165vh;
+  background-image: url("../Imagenes/Fondo-html.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
-     /*HEADER*/
+/*HEADER*/
 
 header {
-    height: 8.2%;
-    background-image: linear-gradient(180deg, #000000, #00000000);
+  height: 8.2%;
+  background-image: linear-gradient(180deg, #000000bc, #00000087);
 }
 
 .conteiner-logo {
-    display: flex;
-    height: 85px;
-    width: 247px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 85px;
+  width: 247px;
+  align-items: center;
+  justify-content: center;
 }
 
 .conteiner-logo img {
-    height: 115px;
+  height: 115px;
 }
 
-
-
-      /*MAIN*/
+/*MAIN*/
 
 main {
-    height: 70%;
-    display: flex;
-    justify-content: center;
+  background-image: linear-gradient(180deg, #00000087, #00000087);
+  height: 68%;
+  display: flex;
+  justify-content: center;
 }
 
-
-
 .contenedor-main {
-    background-color: #000000d6;
-    height: 650px;
-    width: 455px;
-    border-radius: 5px;
-    padding: 6rem 7rem;
+  background-color: rgb(0 0 0 / 76%);
+  height: 650px;
+  width: 455px;
+  border-radius: 5px;
+  padding: 6rem 7rem;
 }
 
 .h1-main {
-    color: whitesmoke;
-    text-align: start;
-    font-size: 3.2rem;
-    margin-bottom: 2.7rem;
+  color: whitesmoke;
+  text-align: start;
+  font-size: 3.2rem;
+  margin-bottom: 2.7rem;
 }
 
 .contenedor-main .input1 {
-    height: 52px;
-    width: 315px;
-    border: none;
-    border-radius: 6px;
-    padding: 2rem;
-    font-size: 1.7rem;
-    background-color: #333;
-    margin-bottom: 2rem;
+  height: 52px;
+  width: 315px;
+  border: none;
+  border-radius: 6px;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background-color: #333;
+  margin-bottom: 2rem;
 }
-
 
 .boton-main {
-    font-size: 2rem;
-    height: 52px;
-    width: 315px;
-    background-color: #e50914;
-    margin-top: 2rem;
-    border-radius: 5px;
-    border: none;
-    color: white;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  width: 315px;
+  background-color: #e50914;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: none;
+  color: white;
 }
 .boton-main:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-/* .input-conteiner {
-    display: flex;
-    padding: 1rem;
+.container-box {
+  display: flex;
+  justify-content: space-between;
 }
+
+.input-conteiner {
+  display: flex;
+  padding: 1rem 0;
+}
+.input-box {
+  width: 20px;
+}
+
 .input-conteiner h5 {
-    font-size: 1.2rem;
-    color: #b3b3b3;
-    padding-left: 1rem;
-} */
+  font-size: 1.3rem;
+  color: #b3b3b3;
+  padding-left: 2px;
+  font-weight: 200;
+}
+
+.container-ask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-ask a {
+  font-size: 1.3rem;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.container-info {
+  margin-top: 70px;
+  display: flex;
+}
+.container-info h2 {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-info a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.container-p {
+  margin-top: 15px;
+}
+.container-p p {
+  font-size: 13px;
+  font-weight: 200;
+  color: #737373;
+}
+.container-p p a {
+  text-decoration: none;
+  color: #0071eb;
+}
+
+/*FOOTER*/
+footer {
+  height: 260px;
+  background-image: linear-gradient(180deg, #000000d2, #000000d2);
+}
+.container-footer {
+  padding-left: 170px;
+}
+.container-footer--ask {
+  color: #737373;
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.container-footer ol {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.container-footer ol li {
+  width: 240px;
+  padding-right: 80px;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.container-footer ol li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #737373;
+}
+
+.container-idiom {
+}
+
+.container-idiom input {
+  margin-left: 170px;
+  margin-top: 30px;
+  height: 50px;
+  width: 125px;
+  background: #000000;
+  padding-left: 50px;
+  border: solid 2px white;
+  border-radius: 2px;
+}

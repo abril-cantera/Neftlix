@@ -1,34 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/estilos.css" />
     <title>Netflix | Inicio de Secion</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section class="conteiner-logo">
-            <img src="./Imagenes/Logo-Netflix.png" alt="">
-        </section>
+      <section class="conteiner-logo">
+        <img src="./Imagenes/Logo-Netflix.png" alt="" />
+      </section>
     </header>
     <main>
-        <div class="contenedor-main">
-            <h1 class="h1-main">Inicia sesión</h1>
-            <input class="input1" placeholder="Email o número de telefono" type="text">
-            <input class="input1" placeholder="Contraseña" type="text">
-            <section class="-conteiner-boton">
-                <button class="boton-main">Inicia sesión</button>
-            </section>
-            <!-- <section class="input-conteiner">
-                <input type="checkbox" placeholder="">
-                <h5>Recuérdame</h5>
-            </section> -->
-        </div>      
+      <div class="contenedor-main">
+        <h1 class="h1-main">Inicia sesión</h1>
+        <input
+          class="input1"
+          placeholder="Email o número de telefono"
+          type="text"
+        />
+        <input class="input1" placeholder="Contraseña" type="text" />
+        <section class="-conteiner-boton">
+          <button class="boton-main">Inicia sesión</button>
+        </section>
+        <section class="container-box">
+          <div class="input-conteiner">
+            <input class="input-box" type="checkbox" placeholder="" />
+            <h5>Recuérdame</h5>
+          </div>
+          <div class="container-ask">
+            <a href="">¿Necesitas ayuda?</a>
+          </div>
+        </section>
+        <div class="container-info">
+          <h2>¿Primera vez en Netflix?</h2>
+          <a href="https://www.netflix.com/ar/">Suscríbete ahora</a>
+        </div>
+        <div class="container-p">
+          <p>
+            Esta página esta protegida por Google reCAPTCHA para comprobar que
+            no eres un robot. <a href="">Más info.</a>
+          </p>
+        </div>
+      </div>
     </main>
-</body>
+    <footer>
+      <section class="container-footer">
+        <h2 class="container-footer--ask">
+          ¿Preguntas? Llama al 0800 354 1593
+        </h2>
+        <ol>
+          <li>
+            <a href="https://help.netflix.com/es-es/node/412"
+              >Preguntas frecuentes</a
+            >
+          </li>
+          <li>
+            <a href="https://help.netflix.com/es-es/">Centro de ayuda</a>
+          </li>
+          <li>
+            <a href="https://help.netflix.com/legal/termsofuse"
+              >Términos de uso</a
+            >
+          </li>
+          <li>
+            <a href="https://help.netflix.com/legal/privacy">Privacidad</a>
+          </li>
+          <li>
+            <a href="">Preferencias de cookies</a>
+          </li>
+          <li>
+            <a href="https://help.netflix.com/legal/corpinfo"
+              >Información corporativa</a
+            >
+          </li>
+        </ol>
+      </section>
+      <section class="container-idiom">
+        <input list="idiomas" placeholder="Español" />
+        <datalist id="idiomas">
+          <option value="Español"></option>
+          <option value="Ingles"></option>
+        </datalist>
+      </section>
+    </footer>
+  </body>
 </html>
