@@ -3,10 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
   font-family: "Oleo Script", cursive;
 }
+
 body {
   height: 165vh;
   background-image: url("../Imagenes/Fondo-html.jpg");
@@ -80,6 +82,7 @@ main {
   border: none;
   color: white;
 }
+
 .boton-main:hover {
   cursor: pointer;
 }
@@ -93,6 +96,7 @@ main {
   display: flex;
   padding: 1rem 0;
 }
+
 .input-box {
   width: 20px;
 }
@@ -109,6 +113,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+
 .container-ask a {
   font-size: 1.3rem;
   color: #b3b3b3;
@@ -119,6 +124,7 @@ main {
   margin-top: 70px;
   display: flex;
 }
+
 .container-info h2 {
   color: #737373;
   font-size: 16px;
@@ -135,11 +141,13 @@ main {
 .container-p {
   margin-top: 15px;
 }
+
 .container-p p {
   font-size: 13px;
   font-weight: 200;
   color: #737373;
 }
+
 .container-p p a {
   text-decoration: none;
   color: #0071eb;
@@ -150,15 +158,18 @@ footer {
   height: 260px;
   background-image: linear-gradient(180deg, #000000d2, #000000d2);
 }
+
 .container-footer {
   padding-left: 170px;
 }
+
 .container-footer--ask {
   color: #737373;
   padding-top: 30px;
   font-size: 16px;
   font-weight: 200;
 }
+
 .container-footer ol {
   display: flex;
   flex-wrap: wrap;
@@ -178,8 +189,7 @@ footer {
   color: #737373;
 }
 
-.container-idiom {
-}
+.container-idiom {}
 
 .container-idiom input {
   margin-left: 170px;
